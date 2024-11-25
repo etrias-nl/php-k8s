@@ -16,8 +16,7 @@
         "illuminate/macroable": "*",
         "illuminate/support": "*",
         "ratchet/pawl": "*",
-        "symfony/process": "*",
-        "vierbergenlars/php-semver": "*"
+        "symfony/process": "*"
     },
     "suggest": {
         "ext-yaml": "YAML extension is used to read or generate YAML from PHP K8s internal classes."

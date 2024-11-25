@@ -116,7 +116,6 @@ use RenokiCo\PhpK8s\Kinds\K8sResource;
 class KubernetesCluster
 {
     use Traits\Cluster\AuthenticatesCluster;
-    use Traits\Cluster\ChecksClusterVersion;
     use Traits\Cluster\LoadsFromKubeConfig;
     use Traits\Cluster\MakesHttpCalls;
     use Traits\Cluster\MakesWebsocketCalls;
